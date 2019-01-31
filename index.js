@@ -32,11 +32,10 @@ function iLoveTheBeatles(n){
   n += 1;
   }
   do {
-    console.log("I love the Beatles");
     incrementVariable();
-    list.push();
+    list.push("I love the Beatles");
   } 
-  while (15 - n <= 14);
+  while (n <= 14);
 } 
 
 
