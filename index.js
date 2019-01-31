@@ -1,13 +1,13 @@
-// var musician = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-// var instrument = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+var musician = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+var instrument = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
-// function theBeatlesPlay(musician, instrument){
-//   var list = [];
-//   for (var i = 0; i <= 3; i++){
-//     list.push(`${musician[i]} plays ${instrument[i]}`);
-//   }
-//   return list;
-// }
+function theBeatlesPlay(musician, instrument){
+  var list = [];
+  for (var i = 0; i <= 3; i++){
+    list.push(`${musician[i]} plays ${instrument[i]}`);
+  }
+  return list;
+}
 
 // const facts = [
 //   "He was the last Beatle to learn to drive",
@@ -33,7 +33,7 @@ function iLoveTheBeatles(n){
   }
   do {
     incrementVariable();
-    list.push("I love the Beatles");
+    list.push("I love the Beatles!");
   } 
   while (n <= 14);
   return list;
