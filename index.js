@@ -1,1 +1,45 @@
-// add solution here
+// var musician = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+// var instrument = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+
+// function theBeatlesPlay(musician, instrument){
+//   var list = [];
+//   for (var i = 0; i <= 3; i++){
+//     list.push(`${musician[i]} plays ${instrument[i]}`);
+//   }
+//   return list;
+// }
+
+// const facts = [
+//   "He was the last Beatle to learn to drive",
+//   "He was never a vegetarian",
+//   "He was a choir boy and boy scout",
+//   "He hated the sound of his own voice"
+// ];
+
+// function johnLennonFacts(facts){
+//   var list = [];
+//   var i = 0;
+//   while (i <= 3){
+//     list.push(`${facts[i]}!!!`);
+//     i++;
+//   }
+//   return list;
+// }
+
+function iLoveTheBeatles(n){
+ var list = [];
+ var i = 0;  
+   function incrementVariable() {
+  i += 1;
+  }
+  do {
+    console.log("I love the Beatles");
+    incrementVariable();
+    list.push();
+  } 
+  while (15 - i <= 14);
+} 
+
+
+
+
