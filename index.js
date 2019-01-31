@@ -28,16 +28,15 @@
 
 function iLoveTheBeatles(n){
  var list = [];
- var i = 0;  
    function incrementVariable() {
-  i += 1;
+  n += 1;
   }
   do {
     console.log("I love the Beatles");
     incrementVariable();
     list.push();
   } 
-  while (15 - i <= 14);
+  while (15 - n <= 14);
 } 
 
 
